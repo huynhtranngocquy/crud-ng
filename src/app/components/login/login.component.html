@@ -1,0 +1,7 @@
+<form (ngSubmit)="login()" #loginForm="ngForm">
+    <input type="text" name="username" #username="ngModel" ngModel required>
+    <small *ngIf="!username?.valid && (username?.dirty || username?.touched)">username is invalid or empty</small>
+    <input type="text" name="password" #password="ngModel" ngModel required>
+    <small *ngIf="!password?.valid && (password?.dirty || password?.touched)">password is invalid or empty</small>
+    <button>login</button>
+</form>

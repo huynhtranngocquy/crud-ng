@@ -1,0 +1,8 @@
+<ul *ngFor="let product of products">
+    <li>{{product.productName}}</li>
+    <li>
+        <a [routerLink]="['/product-detail/'+ product.productName]">edit</a>
+    </li>
+</ul>
+
+

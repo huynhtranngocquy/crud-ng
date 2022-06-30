@@ -1,0 +1,6 @@
+<form (ngSubmit)="changeDetail(detailForm)" #detailForm="ngForm">
+    <input type="text" [(ngModel)]="product.productName" name="productName">
+    <button>save</button>
+</form>
+
+<p>{{product | json}}</p>

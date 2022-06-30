@@ -1,0 +1,5 @@
+<form *ngIf="category">
+    <input type="text" [(ngModel)]="category.id" name="id">
+    <input type="text" [(ngModel)]="category.name" name="name">
+    <button (click)="update()">update</button>
+</form>

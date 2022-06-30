@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "clothes"
+    },
+    {
+      "id": 2,
+      "name": "computer"
+    },
+    {
+      "id": 3,
+      "name": "asd"
+    },
+    {
+      "id": 4,
+      "name": "aa"
+    },
+    {
+      "id": 5,
+      "name": "aasd"
+    },
+    {
+      "name": "asd",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "a"
+    },
+    {
+      "name": "xzxz",
+      "id": 8
+    }
+  ]
+}

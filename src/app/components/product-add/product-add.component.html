@@ -1,0 +1,7 @@
+<form (ngSubmit)="add()" [formGroup]="productForm">
+    <input type="text" formControlName="productName">
+    <small
+        *ngIf="!productForm.get('productName')?.valid && (productForm.get('productName')?.dirty || productForm.get('productName')?.touched)">product
+        name is invalid or less than 6 characters</small>
+    <button>add</button>
+</form>

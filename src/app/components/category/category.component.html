@@ -1,0 +1,7 @@
+<ul *ngFor="let category of categories">
+    <li>{{category.id}}</li>
+    <li>{{category.name}}</li>
+    <li>
+        <a [routerLink]="['/category-edit/'+ category.id]">edit</a>
+    </li>
+</ul>
